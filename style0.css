@@ -1,0 +1,327 @@
+ body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        #container {
+            position: relative;
+            height: 100vh;
+        }
+
+        #section1, #section2, #section3 {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #section3{
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #buttonRight, #buttonCenter, #buttonLeft {
+            position: fixed;
+            bottom: 20px;
+            padding: 3px;
+            cursor: pointer;
+            background-color: white;
+            border-radius: 10px;
+            font-size: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            display: block;
+        }
+
+        #buttonRight {
+            right: 20px;
+            position: fixed;
+        }
+
+        #buttonCenter {
+        	position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #buttonLeft {
+            left: 20px;
+        }
+
+        .icon {
+            font-size: 24px;
+            margin-bottom: 0px;
+        }
+        .setting{
+        	float: right;
+        }
+
+        .logo2 {
+    align-self:  center; /* Float the image to the left */
+    margin: 15px 5px; /* Adjust the margin for positioning */
+    width: 50px; /* Adjust the width of the image */
+    height: auto;
+    cursor: pointer; /* Maintain the aspect ratio */
+}
+	.logo3 {
+    align-self:  center; /* Float the image to the left */
+    /* Adjust the margin for positioning */
+    width:15px; /* Adjust the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.activity {
+    align-self:  left; /* Float the image to the left */
+    /* Adjust the margin for positioning */
+    width:25px; /* Adjust the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer;
+}
+.setting {
+    align-self:  right; /* Float the image to the left */
+    /* Adjust the margin for positioning */
+    width:25px; /* Adjust the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer;
+}
+    #formContainer {
+            width: 300px; /* Adjust the width as needed */
+            padding: 20px;
+            background-color: white;
+            width: 100%;
+        }
+        form{
+            text-align: center;
+        }
+
+        .background{
+            background-color: green;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            width: 95%;
+        }
+               
+        .form2{
+            text-align: left;
+            height: 30%;
+            color: white;
+            font-size: 140%;
+            padding: 23px;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+        }
+        .form3{
+        	margin-right: 30%;
+            text-align: left;
+            height: 30%;
+            border: solid;
+            border-color: black;
+            color: white;
+            font-size: 140%;
+            padding: 40px;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+        }
+        .form4{
+            text-align: left;
+            height: 30%;
+            color: white;
+            font-size: 140%;
+            padding: 40px;
+            
+        }
+
+        
+        .formater{
+            float: right;
+
+        }
+        .userlabel{
+        	text-align: center;
+        }
+        .history{
+        	text-align: center;
+        }
+
+        .magnifier{
+        	
+        	margin-left: 50%;
+        	margin-top: 20%;
+        	color: grey;
+          	align-self:  center; /* Float the image to the left */
+    /* Adjust the margin for positioning */
+    width:40px; /* Adjust the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+   
+        }
+
+       .background3{
+            background-color: white;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            width: 95%;
+            z-index: -30;
+        }
+        .background4{
+            background-color: black;
+            border-radius: 15px;
+            width: 95%;
+            color: white;
+            z-index: -30;
+        }
+
+        
+           
+        .formater3 {
+            float: right;
+
+        }
+
+        button{
+            border: none;
+            cursor: pointer;
+            background-color: white;
+
+        }
+        #floatingCard {
+            display: none;
+            font-style: italic;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 15px;
+            background-color: red;
+            color: white;
+            font-size: 130%;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        #floatingCard2 {
+            display: none;
+            font-style: italic;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 15px;
+            background-color: red;
+            color: white;
+            font-size: 130%;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #floatingCard3 {
+            display: none;
+            font-style: italic;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 15px;
+            background-color: red;
+            color: white;
+            font-size: 130%;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #floatingCard4 {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 15px;
+            background-color: green;
+            color: white;
+            font-size: 140%;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #floatingCard5 {
+            display: block;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 15px;
+            background-color: green;
+            color: white;
+            font-size: 140%;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #floatingCard6 {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 90%;
+            transform: translate(-50%, -50%);
+            padding: 15px;
+            background-color: white;
+            color: black;
+            font-size: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+            border-color: grey;
+            border: solid;
+            border-width: 0.8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .wldid{
+        	text-align: center;
+
+        }
+
+         .grants-container{
+        	text-align: center;
+        	max-width: 100%;
+
+        }
+        .grants-container img{
+        	max-width: 100%;
+        	height: auto;
+
+        }
+        .wldbutton{
+        	background-color: black;
+        	color: white;
+        	font-size: 140%;
+        	width: 30%;
+        	border-radius: 14px;
+        	border-color: black;
+        }
+          .purchase{
+	width: 20%;
+	
+}
+
+ .quit{
+	
+	float: right;
+
+}
+
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script defer src ="./index5.js"></script>
+</head>
+<body>
+
+      <!-- Floating card for success message -->
+    <div id="floatingCard">✔ 25 World Coin Genesis Grant Successfully Claimed.<br>Please reload the page to confirm</div>
+    <section id="purchasee" >
+    <div id="floatingCard2"><b style="color: red; font-size: 130%"><img src="logo.png" alt="WorldCoin Logo" class="logo2">Please Pay attention!<br>This is a voluntary decission.</b><br><br>The Govenment of Kenya on 02/08/2023 Suspended the use of World Coin Orbs in Kenya due to questions regarding the data security. The World Coin had to stop the registration exercise in kenya. However, after several discussions between the Kenyan Government and the World Coin team, we both agreed to resume our operations in kenya but under agreed conditions in both the Kenyan Govenment and the World Coin team. The conditions are: 
+        <ol>
+            <li>Kenyan Government Demanded that there must be no eye scanning.</li>
+            <li>Kenyan Government Demanded that World Coin to pay a tax of<b> Ksh. 500 </b>per new user registered in Kenya.</li>
+            <li>World Coin will therefore charge Kenyans<b> KES. 500 </b>to issue a World ID for those who wish to get a World ID in Kenya. New Kenyans registered will only be able to <b>deposit, withdraw </b>or <b>send</b> World Coins after they purchase a World ID <b>@ KES. 500</b></li>
+            <b>NB:</b> World Coin does not charge anyone to acquire World ID. The KES. 500 is returned to the Kenyan Government as tax.To purchase World ID, click on <b>Purchase</b> or click <b>Quit</b> to cancel the process.<br><br>
+            
+            <button class="purchase" onclick="toggleDashboard2()">Purchase</button><button class="quit" onclick="showFloatingCard3()">Quit</button>
+
+        </ol></b></div>
+        </section>
+        <div id="dashboard2" class="dashboard2">
+            <img src="logo.png" alt="WorldCoin Logo" class="logo2">
+            <b style="color: red">NB.</b><b>We only have one Equity Branch and Paybill in Kenya.</b>
+        </div>
+      <div id="dashboard" class="dashboard">
+        <b><input type="image" src="dashboard2.png" alt="dashboard" width="20" height="10" onclick="toggleDashboard()"><br>
+            <a href="login.html">
+             <button style="background-color: red; border: none; width: 30%; margin-left: 70%">Logout</button></a><br>
+          <img src="user.png" alt="User" class="logo2"><br><br>
+          <p>User:<b style="color: green"> <script src="index4.js"></script></p></b>
+          <b style="font-size: 120%">Genesis Grant:</b><b style="font-size: 90%"><div class="Ballance"><input type="text" class="granter" name="grant" id="grant" value="Not Claimed"></div></b><br><br>
+          <b style="font-size: 120%">World ID:</b><b style="font-size: 90%"><div class="Ballance"><input type="text" class="granter" name="grant" id="grant" value="Not Purchased"></div></b><br><br>
+          <b style="font-size: 120%">Grant Ballance:</b><b style="font-size: 70%; color: green" ><div class="Ballance"> <img src="logo.png" alt="WorldCoin Logo" class="logod"></b><b style="font-size: 110%; color: green"> <input type="text" class="balance" id="storedValue" readonly></b></div><br>
+
+          <b style="font-size: 120%">Wallet Balance:</b><b style="font-size: 70%; color: green" ><div class="Ballance"></b><b style="font-size: 120%; color: green"> KES.<input type="text" style="color: green; font-size: 120%" class="balance" id="storedValue2" readonly></b></div><br>
+          <b style="font-size: 90%">Coins will remain reserved untill you purchase a World ID</b><br><br>
+           </div>
+           
+    <nav>
+        
+</div>
+
+    <img src="logo.png" alt="WorldCoin Logo" class="logo2">
+    This is an intergrated World Coin Application to be used in Kenya.<br>You can Send, recieve and withdraw world coins using this app: <b style="color: green"> Use the Arrow on the left to access your profile</b><b style="color: blue"></b></p></h3><p><input type="image" src="dashboard.png" alt="dashboard" width="20" height="10" class="logo4" onclick="toggleDashboard()">
+    </nav>
+    <main>
+               <ul>
+                <li>
+                    <img src="id.png" alt="World ID">
+
+<h4>Get a World ID</h4>
+You will need a World ID for all operations
+    <b><button onclick="showFloatingCard2()">Get a World ID</button></b><br>
+</li>
+    <li>
+                    <img src="genesis.png" alt="World Coin Grant">
+
+<h4>25 Coins Genesis Grant(Available for every new member)</h4>
+World Coin First launched<br> on 24/07/2023. This date<br> remains the official stump for all genesis grants.
+   <button id="btnclaiming" name="btnclaiming"  onclick="storeValue(), storeValue2(),toggleDashboard(), showFloatingCard()">Claim Grant</button></b>
+</li>
+<li>
+                    <img src="boost3.png" alt="World ID">
+
+<h3>Boost your wallet</h3><br>Get Upto 5 Coins for every frend you invite
+    <b><button type="submit">Invite a friend</button></b><br>
+</li>
+
+<li>
+<img src="logo3.png" alt="Courses">
+<b><h4>1: step four</b></h4>
+<b><button type="submit">Next Grant</button></b><br>
+</li>
+
+<li>
+<img src="logo3.png" alt="Courses">
+<b><h4>1: step four</b></h4>
+<b><button type="submit">Referal team</button></b><br>
+</li>
+
+<li>
+<img src="logo3.png" alt="Courses">
+<b><h4>1: step four</b></h4>
+<b><button type="submit">Activities</button></b><br>
+</li>
+
+<li>
+<img src="logo3.png" alt="Courses">
+<b><h4>1: step four</b></h4>
+<b><button type="submit">Contact Support</button></b><br>
+</li>
+
+</ul>
+</section><br>
+
+<p><a href="#">Back to Top</a></p>
+</main>
+<footer>
+     <p>&copy; 2023 World Coin. All rights reserved.</p>
+</footer>
+</body>
+</html>
